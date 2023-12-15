@@ -27,7 +27,7 @@ const Intro = () => {
     const helloId = setInterval(() => {
       setHello(false)
       clearInterval(helloId)
-    }, 5000)
+    }, 1500)
   }, [])
 
   // guiones bajos titilando
@@ -41,7 +41,7 @@ const Intro = () => {
   }, 500)
 
   return (
-    <div className='flex flex-col justify-center pl-20'>
+    <div className={`flex flex-col justify-center ${hello ? 'items-center' : 'items-start'} w-[88%] ${hello ? 'pr-44' : 'pl-20'}`}>
       <div className='text-white flex flex-col'>
         <AnimatePresence>
           {!hello || <motion.h1 initial={{ opacity: 1 }} animate={{ opacity: 1 }} exit={{ opacity: [0.5, 0] }} className='sm:text-9xl text-7xl pl-1 sm:pl-0'>{bienvenida.join('')}<span>{hello && barra ? '_' : ''}</span></motion.h1>}
