@@ -9,7 +9,7 @@ import sonrisa from '../../../public/sonrisa.svg'
 
 const NavBar = () => {
   return (
-    <motion.div initial={{ x: -100 }} animate={{ x: [-80, 0] }} exit={{ x: -100 }} transition={{ type: 'spring', velocity: 5, bounce: 0 }} className='bg-indigo-600 py-8 flex flex-col md:w-2/12 lg:w-[12%] text-xl text-starts text-white justify-between items-center font-semibold'>
+    <motion.div initial={{ x: -100 }} animate={{ x: [-80, 0] }} exit={{ x: -100 }} transition={{ type: 'spring', velocity: 5, bounce: 0 }} className='bg-indigo-600 py-8 flex flex-col md:w-2/12 lg:w-[12%] text-xl text-starts text-white justify-between items-center font-semibold z-10'>
       <div>
         <p>logo</p>
       </div>

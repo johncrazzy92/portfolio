@@ -11,7 +11,7 @@ const MainLayout = () => {
   }, 1500)
   return (
     <>
-      <div className='bg-black h-screen w-full justify-end flex px-5'>
+      <div className='bg-black h-screen w-full justify-end flex pl-5'>
         {!navHidden || <NavBar />}
         <Outlet />
       </div>
