@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-closing-tag-location */
 import { AnimatePresence, motion } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
 import backgroundCoding from '../../public/background_Coding.mp4'

@@ -18,7 +18,7 @@ const NavBar = () => {
           <Link className='ml-7 flex' to='/'><img src={house} className='w-8 pr-3' alt='icono de home' />Home</Link>
         </div>
         <div className='hover:border-y-2 hover:border-amber-300 flex items-center h-14 w-full'>
-          <Link className='ml-7 flex' to='/'><img src={sonrisa} className='w-8 pr-3' alt='icono de seccion "sobre mi"' />Sobre mi</Link>
+          <Link className='ml-7 flex' to='/me'><img src={sonrisa} className='w-8 pr-3' alt='icono de seccion "sobre mi"' />Sobre mi</Link>
         </div>
         <div className='hover:border-y-2 hover:border-amber-300 flex items-center h-14 w-full'>
           <Link className='ml-7 flex' to='/'><img src={monitor} className='w-8 pr-3' alt='icono de seccion sobre tecnologias que utilizo' />Tecnologias</Link>
